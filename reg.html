@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Login</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="reg2.js"></script>
+
+</head>
+
+<body>
+<center>
+    <input type="text"id="nameofuser" class="form-control" placeholder="Name">
+    <br><br>
+    <input type="text"id="email" class="form-control" placeholder="email id">
+    <br><br>
+    <input type="text"id="phone" class="form-control" placeholder="phone number">
+    <br><br>
+  
+    <button type="button" id="login" onclick="addUser();">SAVE</button>
+ 
+    <br>
+    <br>
+    <button type="button" id="login" onclick="back();">BACK</button>
+    <label id="error" style="color:red ;"></label>
+</center>
+</body>
